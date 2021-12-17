@@ -62,7 +62,7 @@ nav li a, .sub1 ,.sub2, .sub3, .sub4{
 }
 
 #head li a:hover, .submenu1:hover, .sub1:hover, .submenu2:hover, .sub2:hover, .submenu3:hover, .sub3:hover, .submenu4:hover, .sub4:hover{
-    background-color: rgb(255, 244, 234);
+    background-color: rgb(214, 214, 214);
 }
 
 li.submenu1, li.submenu2, li.submenu3, li.submenu4{
@@ -90,6 +90,10 @@ li.submenu1, li.submenu2, li.submenu3, li.submenu4{
 .submenu1-1 a:hover, .submenu2-2 a:hover, .submenu3-3 a:hover, .submenu4-4 a:hover{background-color: rgb(255, 244, 234);}
 .submenu1:hover .submenu1-1, .submenu2:hover .submenu2-2, .submenu3:hover .submenu3-3, .submenu4:hover .submenu4-4{display: block;}
 
+#content{
+    height: 280vh;
+    background-color: rgb(197, 0, 0);
+}
 #sidebar{
     width: 25%;
     height: 900px;
@@ -178,7 +182,7 @@ li.submenu1, li.submenu2, li.submenu3, li.submenu4{
     line-height: 55px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background:rgb(255, 223, 83);
+    background:rgb(214, 214, 214);
     cursor:pointer;
     border-top: 1px solid #000;
     border-bottom: 0px solid #000;
@@ -214,10 +218,108 @@ li.submenu1, li.submenu2, li.submenu3, li.submenu4{
     color: rgb(255, 255, 255);
 } 
 
+.main_char{
+    background-color: #ffffff;
+    margin: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.contentss{
+    max-width: 800px;
+    margin: 40% 20%;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.per{
+    min-height: 150px;
+    min-width: 350px;
+    flex-grow: 0;
+    padding: 15px 35px 5px 35px;
+    margin: 5px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.89);
+    border: 1px solid black;
+    color: black;
+}
+
+.pic img{
+    float: left;
+    border-radius: 50%;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.name{
+    padding: 0px 0px 0px 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info ul li{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    margin-top: 0px;
+    color: #333;
+    font-size: 15px;
+    line-height: 21px;
+    text-overflow: ellipsis;
+}
+
+.explain{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 0;
+    vertical-align: bottom;
+}
+
+.actor{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 0;
+    vertical-align: bottom;
+}
+
+.main_song{
+    position: absolute;
+    top: 1100px;
+    left: 540px;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 10px 130px;
+    font-weight: bold;
+}
+
 .video{
     position: absolute;
-    top: 500px;
+    top: 1200px;
     left: 380px;
+}
+
+.song{
+    position: absolute;
+    top: 140px;
+    right: 10px;
 }
 
 footer{
